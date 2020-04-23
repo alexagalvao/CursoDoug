@@ -1,6 +1,6 @@
 package io.github.alexagalvao.domain.repositorio;
 
-import io.github.alexagalvao.model.Cliente;
+import io.github.alexagalvao.domain.entity.Cliente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;

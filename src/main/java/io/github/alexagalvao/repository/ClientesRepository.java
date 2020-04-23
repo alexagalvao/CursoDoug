@@ -1,6 +1,7 @@
 package io.github.alexagalvao.repository;
 
-import io.github.alexagalvao.model.Cliente;
+import io.github.alexagalvao.domain.entity.Cliente;
+
 import org.springframework.stereotype.Repository;
 
 @Repository
