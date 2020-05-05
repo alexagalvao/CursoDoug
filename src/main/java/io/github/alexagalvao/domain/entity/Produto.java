@@ -1,10 +1,17 @@
 package io.github.alexagalvao.domain.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
 @Table(name = "produto")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Produto {
 
     @Id
